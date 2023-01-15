@@ -7,7 +7,7 @@
     font-family: Work Sans;
 }
 
-.top-section {
+.top-container {
     background-color: rgb(236, 196, 143);
     Height: 1122px;
     padding: 50px;
@@ -156,8 +156,11 @@
 }
 
 .feature-title {
-    width: 250px;
+    padding-left: 20px;
+    font-size: 50px;
+    width: 450px;
     margin: 30px;
+    border-left: 5px solid rgb(233, 150, 25);
 }
 .box-1,
 .box-2,
@@ -273,3 +276,23 @@
 .foot-text {
     padding: 20px;
 }
+
+/* ----------------------responsive style -------------------------- */
+ @media screen and (max-width: 576px;)
+ {
+   .top-one{
+    flex-direction: column;}
+    
+    .top-section img {
+        height: 50%;
+        width: 50%;
+ }
+
+
+
+
+
+
+   } 
+
+   
