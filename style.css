@@ -9,7 +9,7 @@
 
 .header-section {
     background-color: #fff5e8;
-    height: 950px;
+    height: 1050px;
 }
 
 .menu-container {
@@ -286,19 +286,27 @@ margin-top: -270px;
 }
 
 /* ----------------------responsive style -------------------------- */
-@media screen and (max-width: 576px; ) {
-    .top-one {
+@media screen and (max-width: 576px){
+    .header-section{
         flex-direction: column;
-    }
+        width: 100%; 
+}
+.menu-container{
+    display: flex;
+    flex-direction: column;
+}
+ .menu{
+    padding: 5px;
+    width: 105px;
+    text-align: center;
+ }  
+ .brand{
+    width: 50%;
+    display: flex;
+flex-direction: column;
 
-    .top-section img {
-        height: 50%;
-        width: 50%;
-    }
-
-
-
-
+ }
+ 
 
 
 }
