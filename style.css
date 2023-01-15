@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&family=Prompt&family=Roboto&family=Work+Sans:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&family=Prompt&family=Roboto&family=Work+Sans:wght@400;500;600&display=swap');
 
 * {
     margin: 0;
@@ -46,7 +46,7 @@
     font-size: 12px;
     text-align: center;
     margin-top: 15px;
-    color:  #727272;
+    color: #727272;
 }
 
 .brand {
@@ -106,7 +106,7 @@
 }
 
 .details-two {
-   color:  #727272;
+    color: #727272;
     margin-top: 20px;
     font-size: 12px;
 }
@@ -114,10 +114,12 @@
 .feat {
     color: #FF900E;
 }
-.gray-txet{
+
+.gray-txet {
 
     color: #727272;
 }
+
 .explore-btn-new {
     color: aliceblue;
     margin-top: 20px;
@@ -128,65 +130,146 @@
     border-radius: 5px;
     margin-right: 500px;
 }
+
 /* --------------------------third section -------------------- */
-.h2{
+.h2 {
     font-size: 40px;
     font-family: Work Sans;
     color: #131313;
 }
 
-.featurte-container{
-display: flex;
-justify-content: space-between;
-margin-bottom: 80px;
-
-
-
+.featurte-container {
+    display: flex;
+    justify-content: space-between;
 
 }
-.box{
+
+.featurte-container img {
+    height: 650px;
     width: 450px;
-height: 150px;
-margin-left: 250px;
-
-
 }
-.image-arc{
-    margin-right: 250px;
-   
+.box {
+    justify-content: space-between;
+    width: 450px;
+    height: 150px;
+    margin-left: 250px;
 }
-.feature-title{
+
+.feature-title {
     width: 250px;
     margin: 30px;
 }
-.box-1 , .box-2, .box-3, .box-4{
-margin: 20px;
-padding: 20px;
-
+.box-1,
+.box-2,
+.box-3,
+.box-4 {
+    margin: 20px;
+    padding: 20px;
 }
 
-.details-three{
+.details-three {
     font-size: 12px;
-   color:  #727272;
+    color: #727272;
+    padding-top: 10px;
 }
-.featurte-container img{
-    height: 850px;
+
+.container-image {
+    margin-right: 250px;
+    margin-bottom: 100px;
+    position: relative;
 }
 
 .exp-button {
-    padding: 1px;
-width: 350px;
-height: 130px;
-background-color: #FF900E;
-font-size: 50px;
-font-family: Work Sans;
-color: #FFFFFF;
-border-style: none;
-border-radius: 7px;
-margin-top: 700px;
+    position: absolute;
+    text-align: center;
+    right: 65%;
+    padding-top: 0px;
+    width: 220px;
+    height: 120px;
+    background-color: #FF900E;
+    font-size: 45px;
+    font-family: Work Sans;
+    color: #FFFFFF;
+    border-style: none;
+    border-radius: 7px;
+    margin-top: 550px;
+}
+
+.exper-btn {
+    font-size: 15px;
+}
+
+/* ---------------------------another section -------------------------------- */
+
+.some-fact {
+    width: 542px;
+    height: 51px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.box-container {
+    text-align: center;
+    padding: 25px;
+    width: 150px;
+}
+
+.box-border {
+    margin: 50px;
+    gap: 20px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid #FF900E;
+    border-radius: 7px;
+}
+
+.icons {
+    border: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-info {
+    width: 100px;
 
 }
-.exp{
-    font-size: 20px;
-    
+
+/* -------------sponsor--------------- */
+
+.sponsor-container {
+    margin-top: 50px;
+    margin-left: 650px;
+    text-align: center;
+}
+
+.sponsor {
+    width: 450px;
+    font-size: 40px;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-png {
+    padding: 20px 60px;
+}
+
+/* ---------------footer---------------  */
+
+.footer {
+    text-align: center;
+    background-color: #f5c884;
+    color: #424242;
+    width: 1200px;
+    height: 60px;
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+
+.foot-text {
+    padding: 20px;
 }
