@@ -7,54 +7,60 @@
     font-family: Work Sans;
 }
 
-.top-container {
-    background-color: rgb(236, 196, 143);
-    Height: 1122px;
-    padding: 50px;
+.header-section {
+    background-color: #fff5e8;
+    height: 950px;
 }
 
-.top-one {
+.menu-container {
+    text-align: center;
+    font-size: 25px;
     display: flex;
     justify-content: space-between;
+    padding: 50px 150px;
 }
 
-.header-title {
-    font-size: 40px;
-    font-family: Work Sans;
-    color: #131313;
-}
-
-.navg {
-    list-style: none;
-    display: flex;
-    margin: 55px, 238px, 1240px, 1204px;
-    font-size: 18px;
-}
-
-.navg li {
-    padding: 20px;
+.menu a {
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    color: rgb(27, 27, 27);
 }
 
 .brand-title {
+    
+    width: 650px;
+    height: 60px;
     font-family: Work Sans;
-    font-size: 64px;
+    font-size: 55px;
     text-align: center;
 }
 
-.details-one {
+.brand-info{
+    width: 650px;
     font-family: Work Sans;
     font-size: 12px;
     text-align: center;
-    margin-top: 15px;
+    margin-top: 100px;
     color: #727272;
+    
 }
 
 .brand {
-    Width: 700px;
+    Width: 570px;
+    height: 200px;
     margin-left: 500px;
     text-align: center;
 }
 
+.header-section img{
+height: 550px;
+width: 1150px;
+padding: 250px;
+align-items: center;
+margin-top: -270px;
+}
 /* -------------button ------------ */
 .explore-btn {
     color: aliceblue;
@@ -148,6 +154,7 @@
     height: 650px;
     width: 450px;
 }
+
 .box {
     justify-content: space-between;
     width: 450px;
@@ -162,6 +169,7 @@
     margin: 30px;
     border-left: 5px solid rgb(233, 150, 25);
 }
+
 .box-1,
 .box-2,
 .box-3,
@@ -278,21 +286,19 @@
 }
 
 /* ----------------------responsive style -------------------------- */
- @media screen and (max-width: 576px;)
- {
-   .top-one{
-    flex-direction: column;}
-    
+@media screen and (max-width: 576px; ) {
+    .top-one {
+        flex-direction: column;
+    }
+
     .top-section img {
         height: 50%;
         width: 50%;
- }
+    }
 
 
 
 
 
 
-   } 
-
-   
+}
